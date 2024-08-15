@@ -1,5 +1,7 @@
 # Grafana Frontend React Exercise. 
 
+Thanks for taking your time to work on this with us! 
+
 ## Instructions
 > Note: We'll be using this as the base of your virtual on-site technical excercise. The on-site round will build on top of this assessment.
 
