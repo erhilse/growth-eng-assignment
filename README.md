@@ -26,4 +26,4 @@
 5. Once completed, upload it to a repository and send the repository link back to us. 
 
 ## Other things to consider
-This exercise was meant as a very basic set up. What can you do to improve it? Feel free to add to this read me and let us know here. 
+This exercise was meant as a very basic set up. What can you do to improve it? Did you find any potential bugs? Feel free to add to this read me and let us know here. 
