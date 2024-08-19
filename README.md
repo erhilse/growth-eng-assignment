@@ -23,7 +23,7 @@ Thanks for taking your time to work on this with us!
 
 3. At the bottom, display the fastest time, slowest time, and average time
 
-4. `App.tsx` comes with a fake endpoint called `fetchLastLocation`. Please do not modify it, and use it as an endpoint for this exercise as it is. 
+4. `App.tsx` comes with a fake endpoint called `fetchLastLocations`. Please do not modify the file `fetchLastLocations`. 
 
 5. Once completed, upload it to a repository and send the repository link back to your recruiter. 
 
