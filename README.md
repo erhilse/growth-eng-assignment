@@ -1,6 +1,6 @@
-# Grafana Frontend React Exercise. 
+# Grafana Frontend React Exercise.
 
-Thanks for taking your time to work on this with us! 
+Thanks for taking your time to work on this with us!
 
 ## Instructions
 > Note: We'll be using this as the base of your virtual on-site technical excercise. The on-site round will build on top of this assessment.
@@ -23,12 +23,25 @@ Thanks for taking your time to work on this with us!
 
 3. At the bottom, display the fastest time, slowest time, and average time
 
-4. `App.tsx` comes with a fake endpoint called `fetchLastLocations`. Please do not modify the file `fetchLastLocations`. 
+4. `App.tsx` comes with a fake endpoint called `fetchLastLocations`. Please do not modify the file `fetchLastLocations`.
 
-5. Once completed, upload it to a repository and send the repository link back to your recruiter. 
+5. Once completed, upload it to a repository and send the repository link back to your recruiter.
 
 ## Other things to consider
-This exercise was meant as a very basic set up. We've got a few questions for you before you leave. Feel free to add to this read me and let us know here. 
+This exercise was meant as a very basic set up. We've got a few questions for you before you leave. Feel free to add to this read me and let us know here.
 1. What can you do to improve it?
+  - Store `SortConfig` and `LocationResult` in localstorage to persist on reloads
+  - Add pagination after the list gets to a certain length.
+  - Server side sorting
+  - Mobile UX could use more thought as tables don't display well on smaller screens
 2. In the 1-2 hours time frame, what did you do to improve it?
+  - Extract the table into a reusable `DataTable` component
+  - Create a hook like `useSortedData` for sorting logic
+  - Add loading/error states for each row
+  - Add sorting for columns
+  - Display a clear empty state when no data exists and encourage users to interact
+  - Update packages
+  - Clean UX
+  - Wrote tests
 3. Did you find any potential bugs?
+  - Original code used setResponse (single object), so every new fetch overwrote previous data instead of appending to the array
